@@ -56,21 +56,63 @@ hr{
 }
 #d2{
     background-color: chocolate;
+    justify-content: space-between;
+    padding:1vw;
 }
 #d3{
     background-color:darkorange;
+    justify-content: space-between;
+    align-items: center;
+    padding:1vw;
 }
 #d4{
     background-color:darkgreen;
+    justify-content: space-between;
+    align-items: center;
+    padding:1vw;
+
 }
 #d5{
     background-color:navy;
+    justify-content: space-between;
+    align-items: center;
+    padding:1vw;
+
 }
 #d6{
     background-color:indigo;
+    justify-content: space-between;
+    align-items: center;
+    padding:1vw;
 }
 
 .punto2-1{
-    flex-wrap:wrap;
+    align-self:flex-end;
+}
+
+.punto3-1{
+    align-self:flex-end;
+}
+.punto3-2{
+    align-items: center;
+}
+.punto3-3{
+    align-self:flex-start;
+}
+.punto4-1, .punto4-2{
+    align-self:flex-start;
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+.punto5-1, .punto5-2{
+    justify-content: space-between;
+    align-self:flex-start;
+    align-items:center ;
+}
+.punto6-1, .punto6-2{
+    justify-content: space-between;
+    align-self:flex-start;
+    align-items:center ;
 }
 
