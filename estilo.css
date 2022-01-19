@@ -45,8 +45,8 @@ hr{
     background-color:whitesmoke;
     border:1px solid whitesmoke;
     border-radius:50%;
-    width:1vw;
-    height:1vw;
+    width:15px;
+    height:15px;
     
 }
 #d1{
@@ -64,18 +64,20 @@ hr{
     justify-content: space-between;
     align-items: center;
     padding:1vw;
+    
 }
 #d4{
     background-color:darkgreen;
     justify-content: space-between;
-    align-items: center;
     padding:1vw;
+    flex-direction: column;
 
 }
 #d5{
     background-color:navy;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     padding:1vw;
 
 }
@@ -84,6 +86,8 @@ hr{
     justify-content: space-between;
     align-items: center;
     padding:1vw;
+    flex-direction:row;
+    flex-wrap:nowrap;
 }
 
 .punto2-1{
@@ -102,17 +106,23 @@ hr{
 .punto4-1, .punto4-2{
     align-self:flex-start;
     justify-content: space-between;
-    align-items:center ;
+    display:flex;
+    width: 100%;
     
 }
 .punto5-1, .punto5-2{
-    justify-content: space-between;
     align-self:flex-start;
-    align-items:center ;
+    justify-content: space-between;
+    display:flex;
+    width: 100%;
+    align-items:center;
 }
 .punto6-1, .punto6-2{
-    justify-content: space-between;
     align-self:flex-start;
-    align-items:center ;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction:column;
+    display:flex;
+    
 }
 
